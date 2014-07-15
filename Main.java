@@ -46,5 +46,9 @@ public class Main {
         System.out.println(counter.getCount());
 
         Puzzle.exec();
+
+        PhilosopherTable table = new PhilosopherTable();
+        table.run();
+
     }
 }
